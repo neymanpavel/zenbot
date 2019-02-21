@@ -23,7 +23,7 @@
     </input>
 
     <input pattern="* пока *">
-        <var name="end_session" value="javascript: true"/>
+        <var name="end_session" value="true"/>
         <output value="Досвидения, незнакомец!" if="empty($UserName)"/>
         <output value="Жду вас на следующем приеме, $UserName!"/>
     </input>
